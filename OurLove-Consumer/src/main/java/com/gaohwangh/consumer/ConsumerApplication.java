@@ -14,8 +14,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableEurekaClient
 @EnableFeignClients(basePackages = {"com.gaohwangh.consumer"})
-public class ProductConsumerApplication {
+public class ConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProductConsumerApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 }
