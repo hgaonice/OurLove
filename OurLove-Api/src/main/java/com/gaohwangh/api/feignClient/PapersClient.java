@@ -14,7 +14,7 @@ import java.util.List;
  * @Version 1.0
  */
 @RequestMapping("/papers")
-public interface PapersCall {
+public interface PapersClient {
 
     @ApiOperation(value = "查询所以数据")
    /* @ApiImplicitParams({

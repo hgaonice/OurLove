@@ -1,6 +1,6 @@
 package com.gaohwangh.production.callback;
 
-import com.gaohwangh.api.feignClient.PapersCall;
+import com.gaohwangh.api.feignClient.PapersClient;
 import com.gaohwangh.api.model.PapersModel;
 import com.gaohwangh.production.services.PapersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 @RestController
-public class PapersCallBackImpl implements PapersCall {
+public class PapersClientBackImpl implements PapersClient {
 
     @Autowired
     private PapersService papersService;
