@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="OurLove-Api" />
+        <module name="OurLove-Consumer" />
+        <module name="OurLove-Eureka" />
+        <module name="OurLove-Production" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

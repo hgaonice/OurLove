@@ -1,0 +1,27 @@
+server:
+  port: 80
+#spring:
+#  application:
+#    name: microservice-constomer
+eureka:
+  instance:
+    hostname: gaohwangh.com
+  client:
+    registerWithEureka: false
+    fetchRegistry: true  # 服务发现，false表示自己不从Eureka服务中获取注册信息
+    serviceUrl: # Eureka客户端与Eureka服务端的交互地址，集群版配置对方的地址，单机版配置自己（如果不配置则默认本机8761端口）
+#      defaultZone: http://gaohwang.com:6001/eureka/
+      defaultZone: http://gaohwangh.com:6001/eureka/
+#      defaultZone: http://localhost:6001/eureka/
+#      ,http://eureka6002.com:6002/eureka/
+#  instance:
+#    instanceId: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名了
+#    preferIpAddress: true #访问路径可以显示IP地址
+
+## 需要开启熔断
+#feign:
+#  hystrix:
+#    enabled: true
+
+feign-client:
+  ourlove-server: ourlove-production
