@@ -1,6 +1,6 @@
 package com.gaohwangh.production.callback;
 
-import com.gaohwangh.api.feignCall.PapersCall;
+import com.gaohwangh.api.feignClient.PapersCall;
 import com.gaohwangh.api.model.PapersModel;
 import com.gaohwangh.production.services.PapersService;
 import org.springframework.beans.factory.annotation.Autowired;

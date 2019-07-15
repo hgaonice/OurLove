@@ -1,8 +1,7 @@
 package com.gaohwangh.consumer.client;
 
-import com.gaohwangh.api.feignCall.PapersCall;
+import com.gaohwangh.api.feignClient.PapersCall;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Repository;
 
 /**
  * @Author: GH
