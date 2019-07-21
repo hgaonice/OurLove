@@ -11,9 +11,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @Date: 2019/7/15 20:11
  * @Version 1.0
  */
+//@EnableHystrix
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableEurekaClient
 @EnableFeignClients(basePackages = {"com.gaohwangh.consumer"})
+//@EnableSwagger2
 public class ConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class, args);

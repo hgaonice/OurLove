@@ -6,6 +6,11 @@ server:
 eureka:
   instance:
     hostname: gaohwangh.com
+      # 心跳时间，即服务续约间隔时间（缺省为30s）
+
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+
   client:
     registerWithEureka: false
     fetchRegistry: true  # 服务发现，false表示自己不从Eureka服务中获取注册信息
@@ -18,6 +23,9 @@ eureka:
 #    instanceId: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名了
 #    preferIpAddress: true #访问路径可以显示IP地址
 
+    # 过期剔除时间，即服务续约到期时间（缺省为90s）
+    registry-fetch-interval-seconds: 30
+
 ## 需要开启熔断
 #feign:
 #  hystrix:
@@ -25,3 +33,13 @@ eureka:
 
 feign-client:
   ourlove-server: ourlove-production
+
+## 需要开启熔断
+#feign:
+#  hystrix:
+#    enabled: true
+
+#解决:com.netflix.client.ClientException: Load balancer does not have available server for client问题
+ribbon:
+  eureka:
+    enabled: true

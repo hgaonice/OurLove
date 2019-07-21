@@ -1,5 +1,6 @@
 package com.gaohwangh.consumer.client;
 
+import com.gaohwangh.api.feignClient.PapersClient;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
@@ -9,6 +10,6 @@ import org.springframework.cloud.openfeign.FeignClient;
  */
 @FeignClient("${feign-client.ourlove-server}")
 //@Repository
-public interface PapersClient extends com.gaohwangh.api.feignClient.PapersClient {
+public interface PapersConsumerClient extends PapersClient {
 
 }

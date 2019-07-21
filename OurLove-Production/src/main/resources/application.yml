@@ -6,11 +6,14 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml # mapper映射文件
 
 spring:
+  devtools:
+    restart:
+      enabled: false   #关闭热部署
   application:
      name: ourlove-production #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个
   datasource:
       type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
-      driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
+      driver-class-name: com.mysql.jdbc.Driver # mysql驱动包
       url: jdbc:mysql://127.0.0.1:3306/ourlove?serverTimezone=GMT%2B8 # 数据
   #库名称
       username: root
@@ -27,6 +30,29 @@ eureka:
     serviceUrl: # Eureka客户端与Eureka服务端的交互地址，集群版配置对方的地址，单机版配置自己（如果不配置则默认本机8761端口）
         defaultZone: http://gaohwangh.com:6001/eureka/
 #      ,http://eureka6002.com:6002/eureka/
+      # 设置拉取服务注册信息时间（缺省为60s）
+    registry-fetch-interval-seconds: 30
   instance:
     instanceId: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名了
     preferIpAddress: true #访问路径可以显示IP地址
+    # 显示IP地址
+    # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-renewal-interval-in-seconds: 5
+    # 过期剔除时间，即服务续约到期时间（缺省为90s）
+    lease-expiration-duration-in-seconds: 10
+
+
+##hystrix的超时时间
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        timeout:
+#          enabled: true
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 9000
+##ribbon的超时时间
+#ribbon:
+#  ReadTimeout: 3000
+#  ConnectTimeout: 3000

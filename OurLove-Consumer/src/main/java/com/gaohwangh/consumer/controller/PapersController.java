@@ -1,13 +1,15 @@
 package com.gaohwangh.consumer.controller;
 
 import com.gaohwangh.api.model.PapersModel;
+import com.gaohwangh.api.utils.BaseUtils;
 import com.gaohwangh.consumer.service.PapersConsumerService;
 import io.swagger.annotations.Api;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -17,20 +19,41 @@ import java.util.List;
  */
 @Api(value = "/papers", description = "文件相关操作")
 @RestController
-@RequestMapping("/papers")
+//@RequestMapping("/papers")
 public class PapersController {
 
-    @Autowired
+    @Resource
     private PapersConsumerService papersConsumerService;
 
-    /**
-     * @CrossOrigin(origins = "*")  解决跨域问题  允许所以访问
-     * @return
-     */
-    @CrossOrigin(origins = "*")
-    @RequestMapping("/selectAll")
+    @RequestMapping(value = "/selectAll", method = RequestMethod.GET)
     List<PapersModel> getPapers(){
         return papersConsumerService.getPapers();
     }
 
+    @ApiOperation(value="插入文件信息")
+    @ApiImplicitParam(paramType="insert", name = "papers", value = "文件信息", required = true, dataType = "PapersModel")
+    @PostMapping(value = "/insert")
+    public String insert(@RequestBody PapersModel papersModel) {
+        papersConsumerService.insert(papersModel);
+        return "success";
+    }
+
+    @ApiOperation(value="根据主键Id查询文件信息")
+    @ApiImplicitParam(paramType = "query",name="id",value = "主键Id",required = true,dataType = "Integer")
+    @RequestMapping(value = "/selectById", method = RequestMethod.GET)
+    public PapersModel selectById(@RequestParam("id") Integer id) {
+       PapersModel papersModel = papersConsumerService.selectById(id);
+
+       return papersModel;
+   }
+
+    @ApiOperation(value="insertsRequest插入数据")
+    @ApiImplicitParam(paramType = "query",name="request",value = "请求信息",required = true,dataType = "HttpServletRequest")
+    @RequestMapping(value = "insertsRequest", method = RequestMethod.POST)
+    public String insertsRequest(HttpServletRequest request) {
+        String obj = request.getParameter("obj");
+        BaseUtils.loggerDebug(obj);
+        papersConsumerService.insertsRequest(request);
+        return "success";
+    }
 }

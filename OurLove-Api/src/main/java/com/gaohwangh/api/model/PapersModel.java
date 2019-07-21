@@ -1,7 +1,10 @@
 package com.gaohwangh.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -11,7 +14,9 @@ import java.util.Date;
  * 文件表
  */
 @Table(name = "papers")
-public class PapersModel {
+//@JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
+//@JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
+public class PapersModel implements Serializable {
     @Id
     private Integer id;
 
@@ -39,15 +44,6 @@ public class PapersModel {
 
     private String reserve3;
 
-
-    public String getObjtype() {
-        return objtype;
-    }
-
-    public void setObjtype(String objtype) {
-        this.objtype = objtype;
-    }
-
     public Integer getId() {
         return id;
     }
@@ -61,7 +57,15 @@ public class PapersModel {
     }
 
     public void setObjid(String objid) {
-        this.objid = objid == null ? null : objid.trim();
+        this.objid = objid;
+    }
+
+    public String getObjtype() {
+        return objtype;
+    }
+
+    public void setObjtype(String objtype) {
+        this.objtype = objtype;
     }
 
     public String getFilename() {
@@ -69,7 +73,7 @@ public class PapersModel {
     }
 
     public void setFilename(String filename) {
-        this.filename = filename == null ? null : filename.trim();
+        this.filename = filename;
     }
 
     public String getFiletype() {
@@ -77,7 +81,7 @@ public class PapersModel {
     }
 
     public void setFiletype(String filetype) {
-        this.filetype = filetype == null ? null : filetype.trim();
+        this.filetype = filetype;
     }
 
     public Integer getFilesize() {
@@ -93,7 +97,7 @@ public class PapersModel {
     }
 
     public void setFileurl(String fileurl) {
-        this.fileurl = fileurl == null ? null : fileurl.trim();
+        this.fileurl = fileurl;
     }
 
     public String getFilepath() {
@@ -101,7 +105,7 @@ public class PapersModel {
     }
 
     public void setFilepath(String filepath) {
-        this.filepath = filepath == null ? null : filepath.trim();
+        this.filepath = filepath;
     }
 
     public String getSuffixname() {
@@ -109,7 +113,7 @@ public class PapersModel {
     }
 
     public void setSuffixname(String suffixname) {
-        this.suffixname = suffixname == null ? null : suffixname.trim();
+        this.suffixname = suffixname;
     }
 
     public Date getCreatedate() {
@@ -125,7 +129,7 @@ public class PapersModel {
     }
 
     public void setReserve1(String reserve1) {
-        this.reserve1 = reserve1 == null ? null : reserve1.trim();
+        this.reserve1 = reserve1;
     }
 
     public String getReserve2() {
@@ -133,7 +137,7 @@ public class PapersModel {
     }
 
     public void setReserve2(String reserve2) {
-        this.reserve2 = reserve2 == null ? null : reserve2.trim();
+        this.reserve2 = reserve2;
     }
 
     public String getReserve3() {
@@ -141,6 +145,6 @@ public class PapersModel {
     }
 
     public void setReserve3(String reserve3) {
-        this.reserve3 = reserve3 == null ? null : reserve3.trim();
+        this.reserve3 = reserve3;
     }
 }

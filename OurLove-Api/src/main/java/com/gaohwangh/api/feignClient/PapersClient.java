@@ -1,11 +1,13 @@
 package com.gaohwangh.api.feignClient;
 
 import com.gaohwangh.api.model.PapersModel;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -16,11 +18,22 @@ import java.util.List;
 @RequestMapping("/papers")
 public interface PapersClient {
 
-    @ApiOperation(value = "查询所以数据")
+//    @ApiOperation(value = "查询数据")
    /* @ApiImplicitParams({
             @ApiImplicitParam(name = "page", value = "页码", required = true, dataType = "int", paramType = "path"),
             @ApiImplicitParam(name = "size", value = "每页显示的数量", required = true, dataType = "int", paramType = "path")
     })*/
-    @RequestMapping(value = "/selectAll", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/selectAll", method = RequestMethod.POST)//, consumes = MediaType.APPLICATION_JSON_VALUE
     List<PapersModel> getPapers();
+
+    @RequestMapping(value = "/insert", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    void insert(@RequestBody PapersModel papersModel);
+
+    @RequestMapping(value = "/insertsRequest", method = RequestMethod.POST)
+    void insertsRequest(HttpServletRequest request);
+
+    @RequestMapping(value = "/selectById")
+    PapersModel selectById(@RequestParam("id") Integer id);
+
+
 }

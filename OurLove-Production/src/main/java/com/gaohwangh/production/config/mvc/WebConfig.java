@@ -1,7 +1,8 @@
-package com.gaohwangh.consumer.config;
+package com.gaohwangh.production.config.mvc;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
@@ -15,7 +16,9 @@ public class WebConfig implements WebMvcConfigurer {
     /**
      * 解决跨域请求
      * @param registry
-     *     @CrossOrigin(origins = "*")
+     */
+    /**
+     * 跨域支持
      */
     @Override
     public void addCorsMappings(CorsRegistry registry) {
@@ -30,7 +33,7 @@ public class WebConfig implements WebMvcConfigurer {
      * https://www.jianshu.com/p/840320d431a1
      * @param registry
      */
-   /* @Override
+    /* @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("swagger-ui.html")
                 .addResourceLocations("classpath:/META-INF/resources/");

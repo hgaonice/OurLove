@@ -1,11 +1,11 @@
 package com.gaohwangh.consumer.service;
 
 import com.gaohwangh.api.model.PapersModel;
-import com.gaohwangh.consumer.client.PapersClient;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.gaohwangh.consumer.client.PapersConsumerClient;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -16,7 +16,7 @@ import java.util.List;
 @Service
 public class PapersConsumerService {
     @Resource
-    private PapersClient papersClient;
+    private PapersConsumerClient papersClient;
 
     /**
      * 查询所以数据
@@ -26,4 +26,17 @@ public class PapersConsumerService {
         return papersClient.getPapers();
     }
 
+
+    public void insert(PapersModel papersModel) {
+        papersClient.insert(papersModel);
+    }
+
+
+    public PapersModel selectById(Integer id) {
+        return papersClient.selectById(id);
+    }
+
+    public void insertsRequest(HttpServletRequest request) {
+        papersClient.insertsRequest(request);
+    }
 }
