@@ -32,7 +32,7 @@ public class PapersService {
         papersDao.insertSelective(papersModel);
     }
 
-    @Transactional
+  /*  @Transactional
     public void insertsRequest(HttpServletRequest request) {
         PapersModel papersModel = new PapersModel();
         String paper = request.getParameter("obj");
@@ -42,7 +42,7 @@ public class PapersService {
             papersDao.insertSelective(papersModel);
         }
 
-    }
+    }*/
 
 
     public PapersModel selectById(Integer id) {

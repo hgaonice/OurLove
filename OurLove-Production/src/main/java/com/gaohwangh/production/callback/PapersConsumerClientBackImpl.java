@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -35,11 +34,6 @@ public class PapersConsumerClientBackImpl implements PapersClient {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    @Override
-    public void insertsRequest(HttpServletRequest request) {
-        papersService.insertsRequest(request);
     }
 
     @Override

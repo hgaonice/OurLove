@@ -1,3 +1,4 @@
+/*
 package com.gaohwangh.api.config;
 
 import com.fasterxml.jackson.core.JsonGenerator;
@@ -16,11 +17,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.io.IOException;
 import java.util.List;
 
+*/
 /**
  * @Author: GH
  * @Date: 2019/7/16 21:29
  * @Version 1.0
- */
+ *//*
+
 @EnableWebMvc
 @Configuration
 @Slf4j
@@ -43,3 +46,4 @@ public class WebAppConfig implements WebMvcConfigurer {
         converters.add(jackson2HttpMessageConverter);
     }
 }
+*/

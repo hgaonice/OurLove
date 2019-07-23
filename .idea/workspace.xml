@@ -4,52 +4,41 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534ce98c-0ebd-423c-84e2-0a0b7ae8e3ab" name="Default Changelist" comment="通用的JS方法 暂且放在这个位置">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/test/java/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/TransactionManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/feign/FeignBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/mvc/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/resources/log4j2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="534ce98c-0ebd-423c-84e2-0a0b7ae8e3ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/BaseUtilsCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/test/xml/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/exception/BusinessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/feignCall/PapersCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/exception/BusinessException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/model/PapersModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/model/PapersModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/BaseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/SpringBeanFactoryUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/target/classes/com/gaohwangh/api/utils/SpringBeanFactoryUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/test/java/Swagger2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/ProductConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/client/PapersClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/config/Swagger2Configuration.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/config/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/controller/PapersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/controller/PapersController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/service/PapersConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/target/classes/com/gaohwangh/consumer/service/PapersConsumerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/ApplicationProductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/ApplicationProductionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersClientBackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/controller/PapersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/controller/PapersProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Eureka/target/classes/com/gaohwang/eureka/ApplicationEurekaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/ApplicationProductionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/ApplicationProductionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/callback/PapersCallBackImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/controller/PapersController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/services/PapersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/target/classes/com/gaohwangh/production/services/PapersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,62 +57,63 @@
     <session id="-801087474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="java" value="1885" />
+          <entry key="java" value="2454" />
           <entry key="md" value="260" />
           <entry key="properties" value="8" />
           <entry key="text" value="186" />
-          <entry key="txt" value="56" />
-          <entry key="xml" value="286" />
-          <entry key="yml" value="214" />
+          <entry key="txt" value="81" />
+          <entry key="xml" value="351" />
+          <entry key="yml" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1885" />
+          <entry key="JAVA" value="2454" />
           <entry key="Markdown" value="260" />
-          <entry key="PLAIN_TEXT" value="271" />
+          <entry key="PLAIN_TEXT" value="296" />
           <entry key="Properties" value="8" />
-          <entry key="XML" value="286" />
-          <entry key="YAML" value="214" />
+          <entry key="XML" value="351" />
+          <entry key="YAML" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="32" />
-          <entry key="java" value="191" />
+          <entry key="class" value="38" />
+          <entry key="java" value="228" />
           <entry key="js" value="1" />
-          <entry key="log" value="1" />
+          <entry key="log" value="8" />
           <entry key="md" value="6" />
-          <entry key="properties" value="7" />
+          <entry key="properties" value="8" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="49" />
-          <entry key="yml" value="32" />
+          <entry key="xml" value="58" />
+          <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="32" />
-          <entry key="JAVA" value="191" />
+          <entry key="CLASS" value="38" />
+          <entry key="JAVA" value="228" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="6" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="8" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="49" />
-          <entry key="YAML" value="32" />
+          <entry key="XML" value="58" />
+          <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages">
@@ -140,44 +130,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="-862">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="17" column="7" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="62">
+              <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -185,21 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="607">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,22 +161,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/test/xml/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/BaseUtilsCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="-926">
+              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+              <folding>
+                <element signature="e#3759#5538#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logs/ourlove-customer.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#766#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/FeignConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -249,6 +237,8 @@
       <find>commons.lang3</find>
       <find>openfeign</find>
       <find>eureka</find>
+      <find>Collections</find>
+      <find>projectlombok</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,10 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/dao/PapersDao.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/SessionFactoryConfiguration.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/DataSourceConfiguration.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/MyMapperScannerConfigurer.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/PapersDao.java" />
@@ -274,9 +260,6 @@
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersCallImpl.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersCallBackImpl.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ProductConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/exception/BusinessException.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/Swagger2Configuration.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignCall/PapersCall.java" />
         <option value="$PROJECT_DIR$/DOC/Swagger.md" />
@@ -285,7 +268,6 @@
         <option value="$PROJECT_DIR$/DOC/java/ContractService.text" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/ApplicationProductionService.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/TransactionManagement.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersClientBackImpl.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersClient.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java" />
@@ -295,23 +277,31 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/test/java/Swagger2Configuration.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/test/java/WebConfig.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/pom.xml" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/pom.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/controller/PapersProductController.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" />
         <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/exception/BusinessException.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/OurLove-Api/pom.xml" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/BaseUtilsCustomer.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/logback-spring.xml" />
       </list>
     </option>
   </component>
@@ -351,19 +341,21 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="125" />
-    <option name="y" value="105" />
-    <option name="width" value="1022" />
-    <option name="height" value="788" />
+    <option name="x" value="2" />
+    <option name="y" value="33" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -376,6 +368,11 @@
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
               <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -406,6 +403,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,26 +433,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -445,8 +445,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
@@ -455,6 +457,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
@@ -464,25 +489,20 @@
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -491,10 +511,12 @@
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
               <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
@@ -502,115 +524,83 @@
               <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="callback" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,7 +610,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563639270145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563897746377" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Boot/SpringBootL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -630,22 +620,23 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\md" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\test\xml" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Api\src\main\resources" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\main\resources" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production\src\main\resources" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaohwangh.consumer.utils" />
       <recent name="com.gaohwangh.production.config.mvc" />
       <recent name="com.gaohwangh.consumer.config" />
       <recent name="" />
       <recent name="com.gaohwangh.api.feignCall" />
-      <recent name="com.gaohwangh.production.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\main\resources" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production\src\main\resources" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\js" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\java" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\sql" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\test" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\md" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -678,11 +669,11 @@
       <module name="OurLove-Eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gaohwang.eureka.*" />
+          <option name="PATTERN" value="com.gaohwangh.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaohwang.eureka.ApplicationEurekaService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaohwangh.eureka.ApplicationEurekaService" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -696,6 +687,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaohwangh.production.ApplicationProductionService" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -709,14 +701,15 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaohwangh.consumer.ConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ApplicationEurekaService" />
       <item itemvalue="Spring Boot.ApplicationProductionService" />
+      <item itemvalue="Spring Boot.ApplicationEurekaService" />
     </list>
     <recent_temporary>
       <list>
@@ -742,7 +735,9 @@
       <workItem from="1563449787895" duration="11931000" />
       <workItem from="1563541377990" duration="7475000" />
       <workItem from="1563587470681" duration="15249000" />
-      <workItem from="1563717500103" duration="1892000" />
+      <workItem from="1563717500103" duration="3375000" />
+      <workItem from="1563792468087" duration="5598000" />
+      <workItem from="1563883108910" duration="9305000" />
     </task>
     <task id="LOCAL-00001" summary="相关文档">
       <created>1563216529877</created>
@@ -800,17 +795,23 @@
       <option name="project" value="LOCAL" />
       <updated>1563217665349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feign调用优化  HttpServletRequest请求序列化出现问题,暂未解决">
+      <created>1563720699288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563720699288</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75111000" />
+    <option name="totallyTimeSpent" value="91497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828178" weight="0.31089258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.29727685" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -828,10 +829,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.3281787" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49848714" weight="0.5704467" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49848714" weight="0.5927835" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49924356" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3298969" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -903,7 +904,8 @@
     <MESSAGE value="工作中用到的文件上传下载功能" />
     <MESSAGE value="通用的JS方法 暂且放在这个位置" />
     <MESSAGE value="修改名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改名称" />
+    <MESSAGE value="feign调用优化  HttpServletRequest请求序列化出现问题,暂未解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign调用优化  HttpServletRequest请求序列化出现问题,暂未解决" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,27 +924,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java</url>
           <line>41</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java</url>
@@ -950,210 +934,35 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>file.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/PLG/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/test/java/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="37" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/test/java/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="17" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="33" column="54" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/javax/persistence/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/mvc/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/PapersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/io/swagger/annotations/ApiImplicitParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/io/swagger/annotations/ApiImplicitParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/dao/TransactionManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/feign/FeignBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/controller/PapersProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonIgnoreProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/PLG/repository/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1173,42 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/application.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16011" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/PLG/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar!/com/fasterxml/jackson/databind/SerializationFeature.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1218,20 +991,6 @@
     </entry>
     <entry file="jar://F:/PLG/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7-sources.jar!/com/fasterxml/jackson/databind/SerializationFeature.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://F:/PLG/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/feign/SynchronousMethodHandler.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1244,13 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
@@ -1268,37 +1020,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="7" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-35082" />
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java">
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java">
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/javax/servlet/http/HttpServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Eureka/src/main/java/com/gaohwangh/eureka/ApplicationEurekaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160" />
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/spring-beans/5.0.11.RELEASE/spring-beans-5.0.11.RELEASE.jar!/org/springframework/beans/factory/ObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonAutoDetect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="100">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/Swagger2Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1307,38 +1136,211 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java">
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="25">
+          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/MultipartProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/MultipartAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/io/swagger/annotations/ApiImplicitParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/ConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="290" column="25" selection-start-line="290" selection-start-column="25" selection-end-line="290" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/log4j2.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/BaseUtilsCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/resources/log4j2.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#766#767#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="-862">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9047" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/test/xml/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding>
+            <element signature="e#3759#5538#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/ourlove-customer.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

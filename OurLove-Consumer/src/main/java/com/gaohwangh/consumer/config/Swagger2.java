@@ -14,6 +14,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Author: GH
  * @Date: 2019/7/20 10:28
  * @Version 1.0
+ *
+ * swaggers2生产接口文档
  */
 @Configuration
 @EnableSwagger2
@@ -36,5 +38,4 @@ public class Swagger2 {
                 .version("1.0")
                 .build();
     }
-
 }

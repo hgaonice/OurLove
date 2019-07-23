@@ -43,3 +43,20 @@ feign-client:
 ribbon:
   eureka:
     enabled: true
+
+
+#文件上传设置
+spring:
+  application:
+    name: ourlove-customer
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100Mb
+      max-request-size: 100Mb
+
+logging:
+  level:
+    root: info
+    com.cloud: debug
+  file: logs/${spring.application.name}.log

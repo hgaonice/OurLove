@@ -5,6 +5,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
+
 /**
  * @Author: GH
  * @Date: 2019/7/16 2:01
@@ -13,7 +15,7 @@ import org.springframework.stereotype.Component;
  * 普通类 调用容器中的对象
  */
 @Component
-public class SpringBeanFactoryUtils implements ApplicationContextAware {
+public class SpringBeanFactoryUtils implements ApplicationContextAware , Serializable {
 
     private static ApplicationContext context;
 

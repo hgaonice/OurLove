@@ -20,6 +20,9 @@ import java.util.List;
  * @author gaoh
  * @version 1.0
  * @date 2019/7/23 12:18
+ *
+ *
+ * 使用fastjson
  */
 @Configuration
 public class FeignConfig {

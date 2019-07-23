@@ -1,4 +1,4 @@
-package com.gaohwangh.api.utils;
+package com.gaohwangh.consumer.utils;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -29,9 +29,9 @@ import java.util.*;
  *
  * 公共方法类   不断收集
  */
-public class BaseUtils implements Serializable {
+public class BaseUtilsCustomer implements Serializable {
     // slf4j-Logger
-    private static final Logger logger = LoggerFactory.getLogger(BaseUtils.class);
+    private static final Logger logger = LoggerFactory.getLogger(BaseUtilsCustomer.class);
 
 
     /**
@@ -99,7 +99,7 @@ public class BaseUtils implements Serializable {
                     if(!arg0.getName().equals("java.util.Date")){
                         return null;
                     }
-                    BaseUtils.loggerDebug("注册字符串转换date类型转换器");
+                    BaseUtilsCustomer.loggerDebug("注册字符串转换date类型转换器");
                     if(arg1 == null){
                         return null;
                     }
@@ -111,7 +111,7 @@ public class BaseUtils implements Serializable {
                             timeMillis.setTime((Long)arg1);
                             return timeMillis;
                         }catch(Exception e4){
-                            BaseUtils.loggerDebug("非时间戳字符串或暂未支持的日期字符串类型：{}", new Object[]{arg1});
+                            BaseUtilsCustomer.loggerDebug("非时间戳字符串或暂未支持的日期字符串类型：{}", new Object[]{arg1});
                             return arg1;
                         }
                     }
@@ -139,7 +139,7 @@ public class BaseUtils implements Serializable {
                                     try{
                                         return sd3.parse(str);
                                     }catch(ParseException e3){
-                                        BaseUtils.loggerDebug("非日期字符串或暂未支持的日期字符串类型：{}", new Object[]{str});
+                                        BaseUtilsCustomer.loggerDebug("非日期字符串或暂未支持的日期字符串类型：{}", new Object[]{str});
                                         return arg1;
                                     }
                                 }
@@ -173,7 +173,7 @@ public class BaseUtils implements Serializable {
                     if(!arg0.getName().equals("java.util.Date")){
                         return null;
                     }
-                    BaseUtils.loggerDebug("注册字符串转换date类型转换器");
+                    BaseUtilsCustomer.loggerDebug("注册字符串转换date类型转换器");
                     if(arg1 == null){
                         return null;
                     }
@@ -185,7 +185,7 @@ public class BaseUtils implements Serializable {
                             timeMillis.setTime((Long)arg1);
                             return timeMillis;
                         }catch(Exception e4){
-                            BaseUtils.loggerDebug("非时间戳字符串或暂未支持的日期字符串类型：{}", new Object[]{arg1});
+                            BaseUtilsCustomer.loggerDebug("非时间戳字符串或暂未支持的日期字符串类型：{}", new Object[]{arg1});
                             return arg1;
                         }
                     }
@@ -213,7 +213,7 @@ public class BaseUtils implements Serializable {
                                     try{
                                         return sd3.parse(str);
                                     }catch(ParseException e3){
-                                        BaseUtils.loggerDebug("非日期字符串或暂未支持的日期字符串类型：{}", new Object[]{str});
+                                        BaseUtilsCustomer.loggerDebug("非日期字符串或暂未支持的日期字符串类型：{}", new Object[]{str});
                                         return arg1;
                                     }
                                 }
@@ -225,11 +225,11 @@ public class BaseUtils implements Serializable {
 
             while (en.hasMoreElements()) { //遍历列举来获取所有的参数
                 String name = (String) en.nextElement();
-                String value = BaseUtils.encodeUTF8(request.getParameter(name));
+                String value = BaseUtilsCustomer.encodeUTF8(request.getParameter(name));
                 org.apache.commons.beanutils.BeanUtils.setProperty(model, name, value.trim());
             }
         } catch (Exception e) {
-            BaseUtils.loggerError(e);
+            BaseUtilsCustomer.loggerError(e);
             throw new BusinessException("request转换model失败，"+e.getMessage());
         }
     }
@@ -283,7 +283,7 @@ public class BaseUtils implements Serializable {
                 return str;
             }
         } catch (UnsupportedEncodingException e) {
-            BaseUtils.loggerError(e);
+            BaseUtilsCustomer.loggerError(e);
             return "";
         }
     }

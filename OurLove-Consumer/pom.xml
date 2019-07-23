@@ -29,14 +29,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <!--<version>${spring-cloud.version}</version>-->
         </dependency>
 
         <!-- feign远程调用服务 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <!--<version>${spring-cloud.version}</version>-->
         </dependency>
 
         <!-- httpClient -->
@@ -50,20 +48,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
-     <!--   &lt;!&ndash; 导入Eureka客户端的依赖，将 微服务提供者 注册进 Eureka &ndash;&gt;
-        &lt;!&ndash; Ribbon 相关依赖,eureka会自动引入Ribbon &ndash;&gt;
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
-        &lt;!&ndash;feign 依赖&ndash;&gt;
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
--->
 
         <!--API-->
         <dependency>
@@ -92,6 +76,11 @@
             <version>${fastjson.version}</version>
         </dependency>
         <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${common.io.version}</version>
@@ -118,8 +107,56 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
+
+        <!--SLF4j  begin-->
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            &lt;!&ndash; 去除对默认日志的依赖 &ndash;&gt;
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.projectlombok/lombok &ndash;&gt;
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
+        </dependency>
+        &lt;!&ndash; 添加 log4j 依赖 &ndash;&gt;
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j</artifactId>
+        </dependency>
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/slf4j-api &ndash;&gt;
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/ch.qos.logback/logback-classic &ndash;&gt;
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api &ndash;&gt;
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>-->
+        <!--SLF4J end-->
+
         <!-- log related -->
-        <dependency> <!-- exclude掉spring-boot的默认log配置 -->
+     <!--   <dependency> &lt;!&ndash; exclude掉spring-boot的默认log配置 &ndash;&gt;
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
             <exclusions>
@@ -130,90 +167,18 @@
             </exclusions>
         </dependency>
 
-        <!-- 引入log4j2依赖 -->
+        &lt;!&ndash; 引入log4j2依赖 &ndash;&gt;
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
-        <!-- 加上这个才能辨认到log4j2.yml文件 -->
+        &lt;!&ndash; 加上这个才能辨认到log4j2.yml文件 &ndash;&gt;
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- log end -->
-
-
-
-
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>-->
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
-        </dependency>
-
-
-        <!-- jackson json   https://blog.csdn.net/u011781521/article/details/78941550-->
-     <!--   <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>2.2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.module</groupId>
-            <artifactId>jackson-module-jaxb-annotations</artifactId>
-            <version>2.2.3</version>
-        </dependency>-->
-
-        <!--新版-->
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-       <!-- <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core &ndash;&gt;
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations &ndash;&gt;
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-jaxb-annotations &ndash;&gt;
-        <dependency>
-            <groupId>com.fasterxml.jackson.module</groupId>
-            <artifactId>jackson-module-jaxb-annotations</artifactId>
-            <version>2.9.8</version>
-        </dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider -->
-       <!-- <dependency>
-            <groupId>com.fasterxml.jackson.jaxrs</groupId>
-            <artifactId>jackson-jaxrs-json-provider</artifactId>
-            <version>2.9.8</version>
-        </dependency>-->
-
-
 
     </dependencies>
 

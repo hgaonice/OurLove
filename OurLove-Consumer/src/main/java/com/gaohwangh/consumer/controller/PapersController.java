@@ -5,12 +5,17 @@ import com.gaohwangh.api.utils.BaseUtils;
 import com.gaohwangh.consumer.service.PapersConsumerService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: GH
@@ -25,7 +30,7 @@ public class PapersController {
     @Resource
     private PapersConsumerService papersConsumerService;
 
-    @RequestMapping(value = "/selectAll", method = RequestMethod.GET)
+    @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
     List<PapersModel> getPapers(){
         return papersConsumerService.getPapers();
     }
@@ -53,7 +58,25 @@ public class PapersController {
     public String insertsRequest(HttpServletRequest request) {
         String obj = request.getParameter("obj");
         BaseUtils.loggerDebug(obj);
-        papersConsumerService.insertsRequest(request);
+       /* papersConsumerService.insertsRequest(request);*/
         return "success";
+    }
+
+    @ApiOperation(value = "文件上传")
+    @ApiImplicitParams(
+        value = {
+                @ApiImplicitParam(paramType = "MultipartFile", name = "files", value = "文件", required = true, dataType = "MultipartFile"),
+                @ApiImplicitParam(paramType = "HttpServletRequest", name = "request", value = "附加请求信息", required = true, dataType = "HttpServletRequest"),
+        }
+    )
+    @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
+    public Map<String, Object> uploadFile(@RequestParam(name = "files", required = true) MultipartFile[] files
+            , HttpServletRequest request) {
+        Map<String, Object> resultMap = new HashMap<>(6);
+
+        resultMap = papersConsumerService.uploadFile(files, request);
+
+        resultMap.put("data", "message");
+        return resultMap;
     }
 }

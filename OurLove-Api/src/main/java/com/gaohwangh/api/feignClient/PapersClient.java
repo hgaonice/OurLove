@@ -29,9 +29,6 @@ public interface PapersClient {
     @RequestMapping(value = "/insert", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     void insert(@RequestBody PapersModel papersModel);
 
-    @RequestMapping(value = "/insertsRequest", method = RequestMethod.POST)
-    void insertsRequest(HttpServletRequest request);
-
     @RequestMapping(value = "/selectById")
     PapersModel selectById(@RequestParam("id") Integer id);
 
