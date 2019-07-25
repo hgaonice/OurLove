@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534ce98c-0ebd-423c-84e2-0a0b7ae8e3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/ourlove-production.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/ourlove-customer.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/SysUserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysRoleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysUserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysUserRoleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/CryptographyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/SysUserConsumerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/SmsDemoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/SysUserClientBackImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/SysUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/SysUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/config/WebAppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/BaseUtilsCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersConsumerClientBackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersClientBackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/controller/PapersProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +45,7 @@
           <entry key="md" value="260" />
           <entry key="properties" value="8" />
           <entry key="text" value="186" />
-          <entry key="txt" value="143" />
+          <entry key="txt" value="153" />
           <entry key="xml" value="388" />
           <entry key="yml" value="402" />
         </counts>
@@ -83,7 +54,7 @@
         <counts>
           <entry key="JAVA" value="3640" />
           <entry key="Markdown" value="260" />
-          <entry key="PLAIN_TEXT" value="390" />
+          <entry key="PLAIN_TEXT" value="400" />
           <entry key="Properties" value="8" />
           <entry key="XML" value="388" />
           <entry key="YAML" value="402" />
@@ -221,8 +192,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="182">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -793,7 +764,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564073768879" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564075366889" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Boot/SpringBootL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -938,7 +909,7 @@
       <workItem from="1563883108910" duration="10070000" />
       <workItem from="1563968135160" duration="5299000" />
       <workItem from="1564061905259" duration="683000" />
-      <workItem from="1564063113119" duration="10526000" />
+      <workItem from="1564063113119" duration="11149000" />
     </task>
     <task id="LOCAL-00001" summary="相关文档">
       <created>1563216529877</created>
@@ -1010,14 +981,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563897884127</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="用户注册 发送验证码">
+      <created>1564073995429</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564073995429</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108770000" />
+    <option name="totallyTimeSpent" value="109393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.29727685" />
@@ -1115,7 +1094,8 @@
     <MESSAGE value="修改名称" />
     <MESSAGE value="feign调用优化  HttpServletRequest请求序列化出现问题,暂未解决" />
     <MESSAGE value="解决HttpServletResponse问题,HttpServletResponse无法序列化 所以在通过feign调用时不可作为参数传递" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决HttpServletResponse问题,HttpServletResponse无法序列化 所以在通过feign调用时不可作为参数传递" />
+    <MESSAGE value="用户注册 发送验证码" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册 发送验证码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1601,8 +1581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="182">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
