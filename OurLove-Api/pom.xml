@@ -192,6 +192,15 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
+
+        <!-- shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+
     </dependencies>
 
 

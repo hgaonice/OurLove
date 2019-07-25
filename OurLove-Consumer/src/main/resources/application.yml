@@ -58,5 +58,16 @@ spring:
 logging:
   level:
     root: info
-    com.cloud: debug
-  file: logs/${spring.application.name}.log
+    com.gaohwangh.consumer.service: debug
+  file: Logs/${spring.application.name}.log
+
+
+sinotrans:
+  smsservice:
+    #短信模板
+    lifeTemplateCode: "SMS_142065350"
+
+life:
+  smsservice:
+    #短信模板
+    lifeMessege: "SMS_142065350"

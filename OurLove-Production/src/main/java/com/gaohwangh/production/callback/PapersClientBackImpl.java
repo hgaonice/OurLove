@@ -17,7 +17,7 @@ import java.util.List;
  */
 
 @RestController
-public class PapersConsumerClientBackImpl implements PapersClient {
+public class PapersClientBackImpl implements PapersClient {
 
     @Resource
     private PapersService papersService;

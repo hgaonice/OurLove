@@ -3,7 +3,6 @@ package com.gaohwangh.consumer.service;
 import com.gaohwangh.api.model.PapersModel;
 import com.gaohwangh.api.utils.BaseUtils;
 import com.gaohwangh.consumer.client.PapersConsumerClient;
-import com.gaohwangh.consumer.utils.BaseUtilsCustomer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -30,6 +29,7 @@ public class PapersConsumerService {
      * @return
      */
     public List<PapersModel> getPapers(){
+        log.debug("service===>getPapers");
         return papersClient.getPapers();
     }
 
@@ -46,15 +46,13 @@ public class PapersConsumerService {
     public Map<String, Object> uploadFile(MultipartFile[] files, HttpServletRequest request) {
         String localPath = BaseUtils.getLocalPath();
 
-        BaseUtils.loggerDebug("上传的文件路径:" + localPath);
+       log.debug("上传的文件路径:" + localPath);
 
         for (MultipartFile file : files) {
             String name = file.getName();
             String originalFilename = file.getOriginalFilename();
             log.debug(name);
             log.debug(originalFilename);
-//            BaseUtilsCustomer.loggerDebug(name);
-//            BaseUtilsCustomer.loggerDebug(originalFilename);
         }
 
         return new HashMap<>(6);

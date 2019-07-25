@@ -1,5 +1,6 @@
 package com.gaohwangh.consumer.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.gaohwangh.api.model.PapersModel;
 import com.gaohwangh.api.utils.BaseUtils;
 import com.gaohwangh.consumer.service.PapersConsumerService;
@@ -24,7 +25,7 @@ import java.util.Map;
  */
 @Api(value = "/papers", description = "文件相关操作")
 @RestController
-//@RequestMapping("/papers")
+@Slf4j
 public class PapersController {
 
     @Resource
@@ -32,6 +33,7 @@ public class PapersController {
 
     @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
     List<PapersModel> getPapers(){
+        log.info("controller===>selectAll");
         return papersConsumerService.getPapers();
     }
 
@@ -57,8 +59,8 @@ public class PapersController {
     @RequestMapping(value = "insertsRequest", method = RequestMethod.POST)
     public String insertsRequest(HttpServletRequest request) {
         String obj = request.getParameter("obj");
+        log.info(obj);
         BaseUtils.loggerDebug(obj);
-       /* papersConsumerService.insertsRequest(request);*/
         return "success";
     }
 

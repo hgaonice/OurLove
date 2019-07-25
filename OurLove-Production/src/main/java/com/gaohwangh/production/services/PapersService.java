@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -22,33 +21,27 @@ public class PapersService {
     private PapersDao papersDao;
 
     public List<PapersModel> getPapers() {
+        System.out.println("getPapers  sout");
+        BaseUtils.loggerDebug("getPapers 查询所有的!");
         return papersDao.selectAll();
     }
 
 
     @Transactional(rollbackFor = Exception.class)
     public void insert(@RequestBody PapersModel papersModel) throws Exception {
+        System.out.println("getPapers-sout");
         BaseUtils.loggerDebug("insert");
         papersDao.insertSelective(papersModel);
     }
 
-  /*  @Transactional
-    public void insertsRequest(HttpServletRequest request) {
-        PapersModel papersModel = new PapersModel();
-        String paper = request.getParameter("obj");
-        System.out.println("insertsRequest");
-        if (!"".equals(paper)) {
-            BaseUtils.serializeArray2Model(papersModel, paper);
-            papersDao.insertSelective(papersModel);
-        }
 
-    }*/
 
 
     public PapersModel selectById(Integer id) {
         if (id != null) {
             PapersModel papersModel = new PapersModel();
             papersModel.setId(id);
+            System.out.println("selectById:sout" + id);
             BaseUtils.loggerDebug("selectById:" + id);
             return papersDao.selectByPrimaryKey(papersModel);
         }
