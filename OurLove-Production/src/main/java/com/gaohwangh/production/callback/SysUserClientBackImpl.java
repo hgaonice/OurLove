@@ -1,5 +1,6 @@
 package com.gaohwangh.production.callback;
 
+import com.alibaba.fastjson.JSONObject;
 import com.gaohwangh.api.feignClient.SysUserClient;
 import com.gaohwangh.api.model.SysUserModel;
 import com.gaohwangh.production.services.SysUserService;
@@ -23,6 +24,7 @@ public class SysUserClientBackImpl implements SysUserClient {
     @Override
     public void userAdd(@RequestBody SysUserModel userModel) {
         log.info("回调Service方法!");
+        log.info("userModel[{}]!" + JSONObject.toJSONString(userModel));
         sysUserService.userAdd(userModel);
     }
 }

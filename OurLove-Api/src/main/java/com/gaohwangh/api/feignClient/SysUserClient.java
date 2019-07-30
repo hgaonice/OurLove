@@ -20,7 +20,7 @@ public interface SysUserClient {
      * 新增
      * @param userModel
      */
-    @RequestMapping(value = "userAdd",method = RequestMethod.POST/*,consumes = MediaType.APPLICATION_JSON_VALUE*/)
+    @RequestMapping(value = "/userAdd",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
     void userAdd(@RequestBody SysUserModel userModel);
 
 
