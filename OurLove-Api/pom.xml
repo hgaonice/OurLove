@@ -200,6 +200,14 @@
             <version>1.4.0</version>
         </dependency>
 
+        <!--mybatis plus-->
+        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>3.0.7.1</version>
+        </dependency>
+
 
     </dependencies>
 
