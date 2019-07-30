@@ -60,4 +60,4 @@ logging:
   level:
     root: info  #都采用info级别
     com.gaohwangh.production.dao: debug  #指定包名的位置使用DEBUG级别输出
-  file: Log/${spring.application.name}.log  #日志的输出位置
+  file: Logs/${spring.application.name}.log  #日志的输出位置
