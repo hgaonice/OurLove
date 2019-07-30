@@ -12,6 +12,7 @@
         <module>OurLove-Api</module>
         <module>OurLove-Production</module>
         <module>OurLove-Consumer</module>
+        <module>OurLove-Production-Mybatis-Plus</module>
     </modules>
 
     <packaging>pom</packaging>
