@@ -10,6 +10,7 @@
         <module name="OurLove-Consumer" />
         <module name="OurLove-Eureka" />
         <module name="OurLove-Production" />
+        <module name="OurLove-Production-Mybatis-Plus" />
       </profile>
     </annotationProcessing>
   </component>

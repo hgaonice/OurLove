@@ -33,6 +33,7 @@ eureka:
 
 feign-client:
   ourlove-server: ourlove-production
+  ourlove-server-plus: production-mybatis-plus
 
 ## 需要开启熔断
 #feign:
