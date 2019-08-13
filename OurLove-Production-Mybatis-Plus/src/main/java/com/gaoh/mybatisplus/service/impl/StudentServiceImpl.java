@@ -9,12 +9,16 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.gaohwangh.api.entity.StudentEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.beanutils.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * <p>
@@ -27,6 +31,9 @@ import java.util.Map;
 @Service
 @Slf4j
 public class StudentServiceImpl extends ServiceImpl<StudentMapper, StudentEntity> implements IStudentService {
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @Resource
     private IStudentService iStudentService;
 
@@ -35,6 +42,11 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, StudentEntity
 
     @Override
     public StudentEntity selectOne(StudentEntity studentEntity) {
+      /*  ValueOperations valueOperations = redisTemplate.opsForValue();
+        valueOperations.set("name", "hong");
+        redisTemplate.expire("name", 2, TimeUnit.MINUTES);
+        redisTemplate.hasKey("name");*/
+
         log.info("studentEntity:" + JSONObject.toJSONString(studentEntity));
        /* Wrapper<StudentEntity> wrapper = new QueryWrapper<>();
         studentMapper.selectOne(wrapper);*/
