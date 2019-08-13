@@ -36,4 +36,12 @@ public class StudentsController {
         log.info(JSON.toJSONString(studentEntity));
         return studentConsumerService.selectList(studentEntity);
     }
+
+    @RequestMapping(value = "/selectStudent", method = RequestMethod.GET)
+    public List<StudentEntity> selectStudent() {
+        log.info("StudentsController===>selectList");
+        StudentEntity studentEntity = new StudentEntity();
+        log.info(JSON.toJSONString(studentEntity));
+        return studentConsumerService.selectList(studentEntity);
+    }
 }

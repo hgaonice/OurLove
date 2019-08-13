@@ -1,8 +1,8 @@
 package com.gaohwangh.consumer.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import com.gaohwangh.api.model.PapersModel;
 import com.gaohwangh.api.utils.BaseUtils;
+import com.gaohwangh.consumer.annotation.ControllerLog;
 import com.gaohwangh.consumer.service.PapersConsumerService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -31,8 +31,15 @@ public class PapersController {
     @Resource
     private PapersConsumerService papersConsumerService;
 
+    @ControllerLog(desc = "查询所有信息")
     @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
     List<PapersModel> getPapers(){
+        log.info("controller===>selectAll");
+        return papersConsumerService.getPapers();
+    }
+
+    @RequestMapping(value = "/selectList", method = RequestMethod.GET)
+    List<PapersModel> getpapers(){
         log.info("controller===>selectAll");
         return papersConsumerService.getPapers();
     }
@@ -46,6 +53,7 @@ public class PapersController {
     }
 
     @ApiOperation(value="根据主键Id查询文件信息")
+    @ControllerLog(desc = "根据主键Id查询文件信息")
     @ApiImplicitParam(paramType = "query",name="id",value = "主键Id",required = true,dataType = "Integer")
     @RequestMapping(value = "/selectById", method = RequestMethod.GET)
     public PapersModel selectById(@RequestParam("id") Integer id) {

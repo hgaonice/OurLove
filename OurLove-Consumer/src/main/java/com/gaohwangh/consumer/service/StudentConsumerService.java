@@ -4,7 +4,6 @@ import com.gaohwangh.api.entity.StudentEntity;
 import com.gaohwangh.consumer.client.StudentFeignClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.annotation.Resource;
 import java.util.List;
