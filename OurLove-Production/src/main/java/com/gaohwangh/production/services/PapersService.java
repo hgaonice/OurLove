@@ -40,7 +40,7 @@ public class PapersService {
     public PapersModel selectById(Integer id) {
         if (id != null) {
             PapersModel papersModel = new PapersModel();
-            papersModel.setId(id);
+            papersModel.setIds(id);
             System.out.println("selectById:sout" + id);
             BaseUtils.loggerDebug("selectById:" + id);
             return papersDao.selectByPrimaryKey(papersModel);
