@@ -14,8 +14,8 @@ spring:
   datasource:
       type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
       driver-class-name: com.mysql.jdbc.Driver # mysql驱动包
-#      url: jdbc:mysql://127.0.0.1:3306/ourlove?serverTimezone=GMT%2B8 # 数据
-      url: jdbc:mysql://94.191.23.136:3306/ourlove?serverTimezone=GMT%2B8 # 数据
+      url: jdbc:mysql://127.0.0.1:3306/ourlove?serverTimezone=GMT%2B8 # 数据
+#      url: jdbc:mysql://94.191.23.136:3306/ourlove?serverTimezone=GMT%2B8 # 数据
   #库名称
       username: root
 #      password: root

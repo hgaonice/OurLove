@@ -15,7 +15,7 @@ import java.io.Serializable;
  * 普通类 调用容器中的对象
  */
 @Component
-public class SpringBeanFactoryUtils implements ApplicationContextAware , Serializable {
+public class SpringBeanFactoryUtils implements ApplicationContextAware {
 
     private static ApplicationContext context;
 

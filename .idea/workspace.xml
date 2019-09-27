@@ -4,24 +4,18 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534ce98c-0ebd-423c-84e2-0a0b7ae8e3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/ourlove-production.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/production-mybatis-plus.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/StudentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/StudentFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/StudentsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/feignClientImpl/StudentClentImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="534ce98c-0ebd-423c-84e2-0a0b7ae8e3ab" name="Default Changelist" comment="切面配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/ourlove-production.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ourlove-customer.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ourlove-customer.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/MybatisPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/MybatisPlusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOC/sql/ourlove.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DOC/sql/ourlove.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ourlove-customer.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ourlove-production.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/production-mybatis-plus.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/job/TestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/job/TestJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,10 +35,16 @@
     <session id="-801087474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -52,64 +52,69 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="84" />
-          <entry key="java" value="5190" />
+          <entry key="java" value="7301" />
           <entry key="md" value="260" />
           <entry key="properties" value="8" />
           <entry key="text" value="186" />
-          <entry key="txt" value="226" />
-          <entry key="xml" value="564" />
-          <entry key="yml" value="488" />
+          <entry key="txt" value="301" />
+          <entry key="xml" value="584" />
+          <entry key="yml" value="515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5190" />
+          <entry key="JAVA" value="7300" />
           <entry key="Markdown" value="260" />
-          <entry key="PLAIN_TEXT" value="496" />
+          <entry key="PLAIN_TEXT" value="571" />
+          <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="8" />
-          <entry key="XML" value="564" />
-          <entry key="YAML" value="488" />
+          <entry key="XML" value="584" />
+          <entry key="YAML" value="515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="50" />
-          <entry key="http" value="1" />
-          <entry key="java" value="368" />
+          <entry key="class" value="62" />
+          <entry key="http" value="2" />
+          <entry key="java" value="454" />
           <entry key="js" value="1" />
-          <entry key="log" value="9" />
-          <entry key="md" value="7" />
+          <entry key="log" value="13" />
+          <entry key="md" value="8" />
           <entry key="png" value="1" />
-          <entry key="properties" value="9" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="85" />
-          <entry key="yml" value="53" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="10" />
+          <entry key="sql" value="3" />
+          <entry key="text" value="2" />
+          <entry key="xml" value="93" />
+          <entry key="yml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="50" />
+          <entry key="CLASS" value="62" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="368" />
+          <entry key="JAVA" value="454" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Properties" value="9" />
-          <entry key="SQL" value="1" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="85" />
-          <entry key="YAML" value="53" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Properties" value="10" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="94" />
+          <entry key="YAML" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages">
@@ -119,34 +124,68 @@
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages">
         <counts>
-          <entry key="RestClientRequestEditorNavigator.fromCode" value="1" />
-          <entry key="RestClientRequestRunnerNavigator.fromCode" value="4" />
+          <entry key="RestClientRequestEditorNavigator.fromCode" value="2" />
+          <entry key="RestClientRequestRunnerNavigator.fromCode" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/StudentsController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/core/StandardServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="6908">
+              <caret line="375" column="30" selection-start-line="375" selection-start-column="30" selection-end-line="375" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#27692#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/StudentFeignClient.java">
+        <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/Container.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1606">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/Service.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/Servlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/core/StandardWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,77 +193,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/SysUserConsumerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="466">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="258">
+              <caret line="136" column="21" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="136" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/pom.xml">
+        <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/Lifecycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/StudentClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="115" selection-start-line="18" selection-start-column="115" selection-end-line="18" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="1474">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -235,6 +227,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -256,7 +250,15 @@
       <find>sysUserAdd</find>
       <find>selectListBySQL</find>
       <find>spring-boot-starter</find>
+      <find>BaseUtils.loggerDebug</find>
+      <find>sysJobMapper</find>
+      <find>selectById</find>
+      <find>Tomca</find>
+      <find>getServletM</find>
     </findStrings>
+    <replaceStrings>
+      <replace>log.info</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -268,35 +270,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/UserClientBackImpl.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/SysUserDao.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/SysUserService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/SmsDemoUtils.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/SysUserController.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/generator/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/utils/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/dao/MetaObjectHandlerConfig.java" />
-        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/entity/SysUserEntity.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application-dao.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gaohwangh/papers/service/impl/PapersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/mybatis/mappers/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/mybatis/SysUserController.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/ISysUserService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/mapper/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/config/dao/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/mybatis/SysUserMBController.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/PapersDao.java" />
-        <option value="$PROJECT_DIR$/OurLove-Eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/SysUserClientBackImpl.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/SysUserConsumerClient.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/SysUserClient.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/pom.xml" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/pom.xml" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/entity/Student.java" />
@@ -311,14 +286,41 @@
         <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/MybatisPlusApplication.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/StudentClient.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/feignClientImpl/StudentClentImpl.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/StudentFeignClient.java" />
         <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/StudentClient.java" />
-        <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/StudentsController.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/application-dao.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Eureka/src/main/resources/application-port.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysUserModel.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/annotation/OperateModule.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/annotation/OperationType.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/annotation/ControllerLog.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/annotation/LogAspect.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/PapersService.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysJobModel.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/scheduled/JobFactoryConcurrent.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/SysJobMapper.xml" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/SysJobDao.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/scheduled/JobFactory.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/utils/SpringBeanFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/SchedulerConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/scheduler/SchedulerConfig.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/pom.xml" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/SysJobService.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/job/TestJob.java" />
+        <option value="$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java" />
+        <option value="$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java" />
       </list>
     </option>
   </component>
@@ -340,7 +342,33 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ourlove" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="production" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="production" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="production" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.0.7.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="production" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.0.7.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-webmvc:5.0.11.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="production" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.0.7.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-webmvc:5.0.11.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-expression:5.0.11.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -372,6 +400,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,74 +411,6 @@
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="feignClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
               <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -502,42 +463,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
@@ -613,7 +538,19 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
               <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="callback" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
+              <item name="OurLove-Production" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaohwangh" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
@@ -647,100 +584,61 @@
               <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="feignClientImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoh" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurLove" type="462c0819:PsiDirectoryNode" />
-              <item name="OurLove-Production-Mybatis-Plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.35.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.35.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.35.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.35.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.35" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.35.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -750,7 +648,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564677100320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569600781539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Mybatis-Plus/springboot-mybatis-plus" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -760,28 +658,50 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\mybatis-plus" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production-Mybatis-Plus\src\main\resources\mybatis\mappers" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\main\resources\mybatis\mappers" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\main\java\com\gaohwangh\consumer\config\dao" />
-      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gaohwangh.api.entity" />
-      <recent name="com.gaohwangh.consumer.service" />
-      <recent name="com.gaohwangh.consumer.mapper" />
-      <recent name="com.gaohwangh.consumer.utils" />
-      <recent name="com.gaohwangh.api.utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Consumer\src\test" />
       <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\md" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaohwangh.production.job" />
+      <recent name="com.gaohwangh.production.config" />
+      <recent name="com.gaohwangh.production.utils" />
+      <recent name="com.gaohwangh.production.services" />
+      <recent name="com.gaohwangh.production.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\sql" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production\src\main\resources" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production\src\main\resources\mybatis\mapper" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\OurLove-Production\src\main\java\com\gaohwangh\production\scheduled" />
+      <recent name="F:\GoodGoodStudy\OurLove\Services\OurLove\DOC\java" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/stu/selectList" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:80/selectById" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:80/selectAll" />
@@ -822,9 +742,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1584235" />
+    <option name="contentProportion" value="0.2202473" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationProductionService">
+  <component name="RunManager" selected="Spring Boot.ApplicationEurekaService">
     <configuration name="ApplicationEurekaService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="OurLove-Eureka" />
       <extension name="coverage">
@@ -867,9 +787,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="OurLove-Production-Mybatis-Plus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoh.mybatisplus.MybatisPlusApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -916,7 +837,19 @@
       <workItem from="1564499335584" duration="5756000" />
       <workItem from="1564577230095" duration="868000" />
       <workItem from="1564657422354" duration="4606000" />
-      <workItem from="1564744226773" duration="520000" />
+      <workItem from="1564744226773" duration="6000000" />
+      <workItem from="1564803588578" duration="5715000" />
+      <workItem from="1565108167229" duration="518000" />
+      <workItem from="1565613185936" duration="8637000" />
+      <workItem from="1565706494969" duration="1688000" />
+      <workItem from="1565872417849" duration="6957000" />
+      <workItem from="1567439356547" duration="1727000" />
+      <workItem from="1567520488455" duration="6630000" />
+      <workItem from="1567729980871" duration="722000" />
+      <workItem from="1568212427878" duration="748000" />
+      <workItem from="1569332650388" duration="3913000" />
+      <workItem from="1569408940204" duration="2325000" />
+      <workItem from="1569593687254" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="相关文档">
       <created>1563216529877</created>
@@ -1058,16 +991,88 @@
       <option name="project" value="LOCAL" />
       <updated>1564505022679</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="mybatis-plus 实现生产者 供消费者调用">
+      <created>1564744806770</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564744806770</updated>
+    </task>
+    <task id="LOCAL-00022" summary="日志切面">
+      <created>1565709800824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565709800824</updated>
+    </task>
+    <task id="LOCAL-00023" summary="切面配置">
+      <created>1565709851703</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1565709851703</updated>
+    </task>
+    <task id="LOCAL-00024" summary=" XX">
+      <created>1565709910134</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1565709910134</updated>
+    </task>
+    <task id="LOCAL-00025" summary="redis">
+      <created>1565709952361</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565709952361</updated>
+    </task>
+    <task id="LOCAL-00026" summary="URL">
+      <created>1565883436183</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565883436184</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加定时任务">
+      <created>1565883515172</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565883515172</updated>
+    </task>
+    <task id="LOCAL-00028" summary="反射实现定时任务调度指定类">
+      <created>1565883570937</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565883570937</updated>
+    </task>
+    <task id="LOCAL-00029" summary="sql">
+      <created>1567440278463</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1567440278463</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141853000" />
+    <option name="totallyTimeSpent" value="187385000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.27155825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.29727685" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1079,10 +1084,10 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Spring" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.36941582" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50226927" side_tool="true" weight="0.5103093" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.7491409" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.5704467" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.3281787" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.4977307" weight="0.5137457" />
@@ -1092,21 +1097,21 @@
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3298969" />
       <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.55498284" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" weight="0.6340206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3207262" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.39258698" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Translate" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.31089258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.29727685" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1115,28 +1120,30 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Spring" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.7491409" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.5704467" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.3281787" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49848714" weight="0.5704467" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49924356" weight="0.3298969" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.4977307" weight="0.5137457" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.77835053" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3298969" />
+      <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" weight="0.6340206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.39258698" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Translate" order="9" />
@@ -1180,9 +1187,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="相关文档" />
-    <MESSAGE value="备注" />
-    <MESSAGE value="描述" />
     <MESSAGE value="文件名修改" />
     <MESSAGE value="文件名修改名称" />
     <MESSAGE value="工作中用到的文件上传下载功能" />
@@ -1199,58 +1203,56 @@
     <MESSAGE value="logs" />
     <MESSAGE value="mybatis-plus 单机版" />
     <MESSAGE value="parent  pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="parent  pom" />
+    <MESSAGE value="mybatis-plus 实现生产者 供消费者调用" />
+    <MESSAGE value="日志切面" />
+    <MESSAGE value="切面配置" />
+    <MESSAGE value=" XX" />
+    <MESSAGE value="redis" />
+    <MESSAGE value="URL" />
+    <MESSAGE value="添加定时任务" />
+    <MESSAGE value="反射实现定时任务调度指定类" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java</url>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/StudentController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/StudentController.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/StudentController.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>SpringBeanFactoryUtils</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SpringBeanFactoryUtils.getApplicationContext()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SpringBeanFactoryUtils.getApplicationContext().getBean(job.getSpringId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>o instanceof java.lang.Integer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>o instanceof Integer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>file.getName()</expression-string>
         <language-id>JAVA</language-id>
@@ -1259,364 +1261,358 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/SysUserConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/DOC/URL/请求的URL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/generator/CodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="725">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/PapersController.java" />
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/entity/StudentEntity.java" />
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/utils/RedisUtil.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="164">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/mybatis/mapper/SysJobMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/dao/SysJobDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/SysJobModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="192" column="21" selection-start-line="176" selection-start-column="5" selection-end-line="192" selection-end-column="21" />
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/config/MetaObjectHandlerConfig.java">
+    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/quartz/SchedulerFactoryBeanCustomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="185">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/config/RedisConfig.java">
+    <entry file="jar://F:/PLG/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/SchedulerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/ApplicationProductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/ourlove-production.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/ourlove-customer.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/services/SysJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7850">
+          <caret line="341" column="55" selection-start-line="341" selection-start-column="55" selection-end-line="341" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/scheduled/JobFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/config/MybatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/org/springframework/boot/spring-boot/2.0.7.RELEASE/spring-boot-2.0.7.RELEASE.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/config/scheduler/SchedulerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="525">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/utils/SpringBeanFactoryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="25">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/conditions/Wrapper.class">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/scheduled/JobFactoryConcurrent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/Wrapper.java">
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/SpringBeanFactoryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="-493">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/additional/query/impl/QueryChainWrapper.class">
+    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/job/TestJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="132">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.java">
+    <entry file="jar://F:/PLG/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/core/JobRunShell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="28" />
+        <state relative-caret-position="174">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOC/mybatis-plus/condition.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/model/PapersModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/extension/service/additional/query/impl/QueryChainWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/PLG/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0-sources.jar!/org/apache/commons/beanutils/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="429" column="23" selection-start-line="429" selection-start-column="23" selection-end-line="429" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/mybatis/mappers/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" selection-start-line="19" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/ApplicationProductionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/MybatisPlusApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="34" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/SysUserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="110" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/java/com/gaohwangh/production/callback/PapersClientBackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/feignClientImpl/StudentClentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/IStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/entity/StudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding>
-            <element signature="e#244#296#0" />
-            <element signature="e#790#1430#0" />
-          </folding>
+        <state relative-caret-position="968">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/StudentsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="550">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/StudentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/feignClientImpl/StudentClentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/IStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/PapersClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOC/sql/ourlove.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/utils/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="665" column="49" selection-start-line="665" selection-start-column="49" selection-end-line="665" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/controller/PapersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/StudentFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/src/main/java/com/gaoh/mybatisplus/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/SysUserConsumerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/StudentConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/weaver/StandardAnnotation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar!/org/apache/commons/jxpath/Container.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/javax/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="109" column="75" lean-forward="true" selection-start-line="109" selection-start-column="75" selection-end-line="109" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/startup/Tomcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6534">
+          <caret line="369" column="13" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#45056#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/service/PapersConsumerService.java">
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/core/StandardServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Api/src/main/java/com/gaohwangh/api/feignClient/StudentClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="115" selection-start-line="18" selection-start-column="115" selection-end-line="18" selection-end-column="115" />
+        <state relative-caret-position="6908">
+          <caret line="375" column="30" selection-start-line="375" selection-start-column="30" selection-end-line="375" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#27692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/client/PapersConsumerClient.java">
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/Container.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="1606">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/Service.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/Servlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/core/StandardWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/PLG/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35-sources.jar!/org/apache/catalina/Lifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Consumer/src/main/java/com/gaohwangh/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurLove-Production-Mybatis-Plus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="136" column="21" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="136" selection-end-column="21" />
         </state>
       </provider>
     </entry>

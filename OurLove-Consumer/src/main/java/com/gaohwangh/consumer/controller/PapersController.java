@@ -89,4 +89,22 @@ public class PapersController {
         resultMap.put("data", "message");
         return resultMap;
     }
+
+    @RequestMapping(value = "/selectByIdPost", method = RequestMethod.POST)
+    public PapersModel selectByIdPOST(@RequestParam("id") Integer id,@RequestParam("name") String name) {
+        PapersModel papersModel = papersConsumerService.selectById(id);
+        return papersModel;
+    }
+
+    @RequestMapping(value = "/selectByIdModel", method = RequestMethod.POST)
+    public PapersModel selectByIdModel(@RequestBody PapersModel papersModel) {
+        PapersModel papers = papersConsumerService.selectById(1);
+        return papers;
+    }
+
+    @RequestMapping(value = "/selectByIdModelParam", method = RequestMethod.POST)
+    public PapersModel selectByIdModeParam(@RequestBody PapersModel papersModel, String test) {
+        PapersModel papers = papersConsumerService.selectById(1);
+        return papers;
+    }
 }

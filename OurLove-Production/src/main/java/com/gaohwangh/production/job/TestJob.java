@@ -18,7 +18,7 @@ import java.util.Locale;
  * @version 1.0
  * @date 2019/8/13 14:42
  */
-@Component
+@Component(value = "testJob")
 @Slf4j
 public class TestJob {
 
